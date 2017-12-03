@@ -1,0 +1,4 @@
+﻿Calculator
+Calculation
+Calculate
+Use:\nAddition: '+'\nSubtraction: '-'\nMultiplication:'x' or '*'\nDivision: '/'\nExponentiation: '^' or 'e'\nRadiation: 's' or 'r' or 'v'\nFactorial: '!'
