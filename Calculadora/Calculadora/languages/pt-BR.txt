@@ -2,3 +2,4 @@
 Cálculo
 Calcular
 Ultilize:\nAdição: '+'\nSubtração: '-'\nMultiplicação:'x' ou '*'\nDivisão: '/'\nExponenciação: '^' ou 'e'\nRadiciação: 's' ou 'r' ou 'v'\nFatorial: '!'
+Simbolo Inválido

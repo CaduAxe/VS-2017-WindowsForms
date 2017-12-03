@@ -30,7 +30,10 @@ namespace Calculadora
             for (int i = 0; i < Texto.Length; i++)
             {
                 if (Simbolos.Medio.Contains(Texto[i]))
+                {
                     PrioridadeUm(sinal, i, Texto[i]);
+                    i = sinal + 1;
+                }
                 else if (Simbolos.Basico.Contains(Texto[i]))
                 {
                     if (i != 0)
@@ -79,7 +82,7 @@ namespace Calculadora
             else if (Simbolos.Radiciacao.Contains(action))
                 return Math.Sqrt(v3);
             else
-                throw new Exception("Simbolo inválido");
+                throw new Exception(Linguagem.SimboloInvalido);
         }
 
         private int GetNextSymbol(int i)

@@ -16,6 +16,7 @@ namespace Calculadora
         public static string Calculo { get => Texto[1]; }
         public static string Calcular { get => Texto[2]; }
         public static string HelpCalculo { get => Texto[3].Replace("\\n", "\n"); }
+        public static string SimboloInvalido { get => Texto[4]; }
 
     }
 }
